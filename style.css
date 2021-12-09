@@ -1,0 +1,376 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+*,*:before,*:after{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html, body{
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    -ms-text-size-adjust: 100%;
+    
+}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 700;}
+input,button,textarea{font-family:inherit;}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+     
+}
+section {
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+header{
+background-color: :#423c63;
+padding-top: 25px;
+padding-bottom: 30px;
+}
+.a1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.a3 {
+    font-weight: bold;#FFE4E1-size: 24px;
+    line-height: 28px;
+    display: flex;
+    text-align: center;
+}
+.a4 {
+    color: #0000;
+    margin-left: 25px;
+}
+
+.lik {
+    background:#00FF00;
+    color: #fff;
+}
+.title {
+    margin-bottom: 70px;
+    font-size: 45px;
+    text-align: center;
+}
+.a6 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.a6 img {
+    margin-bottom: 30px;
+}
+.b1 {
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.b3 {
+    background:#ffffff;
+    color: #0000;
+}
+.b8{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.b6{
+    font-size: 22px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.b5{
+    max-width: 277px;
+}
+.b7 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.but {
+    padding: 10px 30px;
+    color:#00FF00;
+    font-size: 24px;
+    background: #ffffff;
+    border-radius: 5px;
+}
+.but:hover {
+    background:#FF00FF;
+    transition: all 0.5s ease;
+}
+.b3-but {
+    font-size: 20px;
+    color: #423c63;
+    background: #ffffff;
+    padding: 20px 40px;
+    display: block;
+    margin-left: auto;
+    margin-top: 40px;
+    border-radius: 5px;
+}
+.b3-but:hover {
+    background: #00FF00;
+    transition: all 0.5s ease;
+}
+.price {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.b10 {
+    background:#00FF00;
+    color: #fff;
+}
+.b11{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.blom{
+    text-align: center;
+    max-width: 700px;
+}
+.lup {
+    font-size: 36px;
+    margin-bottom: 35px;
+}
+.lupi {
+    font-size: 25px;
+}
+.b10-but{
+    font-size: 20px;
+    color: #fff;
+    background: #0000FF;
+    padding: 20px 50px;
+    display: block;
+    margin-left: auto;
+    margin-top: 40px;
+    border-radius: 5px;
+}
+.b10-but:hover {
+    background: #FF9E44;
+    transition: all 0.5s ease;
+}
+.b11-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.blom{
+    text-align: center;
+    max-width: 700px;
+}
+.lup {
+    font-size: 36px;
+    margin-bottom: 35px;
+}
+.lupi {
+    font-size: 25px;
+}
+.b10-but{
+    font-size: 20px;
+    color: #fff;
+    background: #0000FF;
+    padding: 20px 50px;
+    display: block;
+    margin-left: auto;
+    margin-top: 40px;
+    border-radius: 5px;
+}
+.b10-but:hover {
+    background: #FF9E44;
+    transition: all 0.5s ease;
+}
+.c1 {
+    background:#fff ;
+    color: #11174B;
+}
+.c3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.c4{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background: #00FF00;
+    color: #fff;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+}
+input {
+    width: 380px;
+    height: 63px;
+    padding: 20px 50px 20px 30px;
+    border-radius: 5px 0 0 5px;
+    font-size: 16px;
+}
+.c4-but {
+    font-size: 20px;
+    color: #FFFFFF;
+    background: #0000FF;
+    padding: 20px 50px;
+    border-radius: 0 5px 5px 0;
+}
+.c4-but:hover {
+    background: #FF9E44;
+    transition: all 0.5s ease;
+} 
+
+@media (max-width: 1199px) {
+    .container {
+        width: 960px;
+    }
+    .b8 {
+        flex-wrap: wrap;
+    }
+    .b5:not(:last-child) {
+        margin-bottom: 40px;
+    }
+    .b5 {
+        max-width: 322px;
+    }
+    .b7 {
+        max-width: 277px;
+    }
+    .blom {
+        margin-left: 45px;
+    }
+}
+
+@media (max-width: 991px) {
+    .container {
+        width: 720px;
+    }
+    .a6 img {
+        width: 200px;
+        height: 200px;
+    }
+    .b1 {
+        font-size: 16px;
+    }
+    .b5 {
+        max-width: 277px;
+    }
+    .b11 {
+        flex-wrap: wrap;
+    }
+    .b11-2 {
+        flex-wrap: wrap;
+    }
+    .b10-image {
+        margin: 0 auto;
+        margin-bottom: 35px;
+    }
+    .b10-btn {
+        margin: 0 auto;
+        margin-top: 35px;
+    }
+}
+@media (max-width: 767px) {
+    .container {
+        width: 540px;
+    }
+    .a6 {
+        display: block;
+        margin: 0 auto;
+    }
+    .b2 img {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .b2:not(:last-child) {
+        margin-bottom: 35px;
+    }
+    .title {
+        font-size: 40px;
+    }
+    .b8 {
+        justify-content: center;
+    }
+    .gb3-but {
+        margin: 40px auto;
+    }
+    .blom{
+        margin-left: 0;
+    }
+}
+@media (max-width: 575px) {
+    .container {
+        width: 100%;
+        padding: 0 15px;
+    }
+    .a1 {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .a3 {
+        margin-top: 20px;
+    }
+    .title,
+    .lup{
+        font-size: 28px;
+    }
+    section {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .b10-image img {
+        width: 100%;
+    }
+    .lupi {
+        font-size: 20px;
+    }
+    .form {
+        display: block;
+    }
+    input,
+    .c4-but {
+        width: 100%;
+        border-radius: 5px;
+    }
+    .c4-but{
+        margin-top: 20px;
+    }
+    .c3 {
+        font-size: 16px;
+    }
+    .title {
+        margin-bottom: 45px;
+    }
+}
